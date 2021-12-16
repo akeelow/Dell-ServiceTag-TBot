@@ -1,5 +1,6 @@
 auth.py
 .dell-sttb
+.dell-sttb39
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
