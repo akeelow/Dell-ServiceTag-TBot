@@ -17,14 +17,7 @@ async def start(message: types.Message):
 async def start(message: types.Message):
     await message.answer(f"It's not a Dell Service Tag → {message.text}")
     
-
-
-
-def get_link(tag="35D51N2"):
-    print(f"https://www.dell.com/support/home/ru-ru/product-support/servicetag/{token}/overview")
-
 def main():
-    #get_link(tag="4444")
     executor.start_polling(dp, skip_updates=True)
 
 if __name__ == "__main__":
