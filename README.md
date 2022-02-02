@@ -1,4 +1,4 @@
-# Dell-ServiceTag-TBot
+# Dell-ServiceTag-TBot for all
 
 Dell Service Tag Link Generator Telegram Bot https://youtube.com/shorts/zYhqt3nJhU8?feature=share
 
