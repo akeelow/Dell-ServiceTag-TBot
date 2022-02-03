@@ -29,4 +29,4 @@ jobs:
       - name: Connect to Server
         run: |
           mkdir WORLD
-          rsync -avv -e "ssh" ubuntu@${{ secrets.HOST }}:/home/ubuntu
+          rsync -avv -e "ssh" . ubuntu@${{ secrets.HOST }}:/home/ubuntu
