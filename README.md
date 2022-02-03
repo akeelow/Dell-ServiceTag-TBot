@@ -1,4 +1,4 @@
-# Dell-ServiceTag-TBot for all
+# Dell-ServiceTag-TBot for all ![Deployed](https://github.com/akeelow/Dell-ServiceTag-TBot/actions/workflows/main.yml/badge.svg)
 
 Dell Service Tag Link Generator Telegram Bot https://youtube.com/shorts/zYhqt3nJhU8?feature=share
 
