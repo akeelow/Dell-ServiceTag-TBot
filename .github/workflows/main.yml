@@ -20,9 +20,7 @@ jobs:
           ssh-host: ${{ secrets.HOST }}
 
       - name: Create folders
-        run : |
-          mkdir HELLO
-          mkdir WORLD
+        run : mkdir ${{ github.sha }}
         
       - name: Copy to Server
         run : rsync -a -e "ssh" . ubuntu@${{ secrets.HOST }}:/home/ubuntu
