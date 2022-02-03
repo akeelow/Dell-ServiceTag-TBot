@@ -28,7 +28,5 @@ jobs:
 
       - name: Connect to Server
         run: |
-          ssh ubuntu@${{ secrets.HOST }}
-          cd /home/ubuntu
-          mkdir HELLO
-          mkdir HELLO
+          mkdir WORLD
+          rsync -avv -e "ssh" ubuntu@${{ secrets.HOST }}:/home/ubuntu
