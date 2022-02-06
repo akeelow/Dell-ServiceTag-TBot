@@ -2,7 +2,8 @@
 auth.py
 .dell-sttb
 .dell-sttb39
-
+.venv
+temp.jpg
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
